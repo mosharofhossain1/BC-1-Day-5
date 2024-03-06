@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .bg_div{
     width: 200px;
     height: 200px;
@@ -49,4 +51,72 @@ p{
     text-transform: uppercase;
     letter-spacing: 5px;
     text-shadow: 5px 5px 5px blue;
+}
+
+.pera{
+    /* line-height: 30px; */
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.font{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+
+.one{
+    color: white;
+    background-color: red;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.two{
+    color: white;
+    background-color: orange;
+    padding: 20px 10px;
+}
+.three{
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    padding: 20px;
+}
+.div1{
+    background-color: skyblue;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 200px;
+
+    border-style: solid;
+    border-width: 5px ;
+    border-color: goldenrod;
+}
+.div2{
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 7px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+   
 }
