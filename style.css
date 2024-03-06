@@ -140,6 +140,16 @@ p{
     display: inline-block;
 }
 
+.flag:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.flag_inner:hover{
+    background-color: rgb(5, 231, 99);
+    transition: .5s;
+}
 .selectDiv1{
     background-color: orange;
     padding: 20px;
@@ -217,4 +227,41 @@ ul.footer_menu li:last-child a{
 ul.footer_menu li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+.hover_div {
+    width: 297px;
+    height: 170px;
+    border: 1px solid red;
+    margin: 50px auto;
+    /* padding: 5px; */
+    position: relative;
+    border-radius: 7px;
+    text-align: center;
+}
+.hover_div img{
+    max-width: 100%;
+}
+.hover_inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 0;
+   height: 0;
+    background-color: rgb(255,0,0, 0.6);
+    visibility: hidden;
+    transition: .5s;
+    opacity: 0;
+}
+.hover_inner h1{
+    margin-top: 60px;
+    text-align: center;
+}
+.hover_div:hover .hover_inner{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    border-radius: 7px;
 }
